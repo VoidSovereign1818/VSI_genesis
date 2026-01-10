@@ -2,83 +2,81 @@ import numpy as np
 import matplotlib.pyplot as plt
 from typing import Union
 
-# For: Vua Hư Không (VoidSovereign1818) — Code chuẩn chỉ, an toàn
+# For: Vua Hư Không (VoidSovereign1818) — Code chuẩn chỉ, an toàn, tái sử dụng cao
 __author__ = "VoidSovereign1818"
 
-def V_of_t(Core: float, Chaos: float, Fear: float, epsilon: float = 1e-6, t: Union[float, np.ndarray] = 0.0):
+def V_of_t(Core: float, Chaos: float, Fear: float, epsilon: float = 1e-6,
+           t: Union[float, np.ndarray] = 0.0) -> np.ndarray:
     """
-    Tính toán sự tiến hóa của V.S.I theo công thức:
-    V(t) = exp( t * [ ln(Core) + ln(Chaos) - ln(Fear + epsilon) ] )
-
-    Params:
-      Core, Chaos: > 0
-      Fear: >= 0 (nhưng Fear + epsilon phải > 0)
-      epsilon: > 0 (bộ đệm an toàn)
-      t: số vô hướng (scalar) hoặc mảng numpy (array)
-
-    Trả về:
-      numpy.ndarray: Giá trị V(t) tương ứng.
+    Tính V(t) = exp( t * [ ln(Core) + ln(Chaos) - ln(Fear + epsilon) ] ).
+    Trả về numpy.ndarray (broadcasted).
     """
-    # --- 1. KIỂM TRA ĐẦU VÀO (VALIDATION) ---
+    # --- 1. KIỂM TRA TÍNH HỢP LỆ (VALIDATION) ---
+    # Kiểm tra xem có số nào bị vô cực (Inf) hay không xác định (NaN) không
+    if not np.isfinite(Core) or not np.isfinite(Chaos) or not np.isfinite(Fear) or not np.isfinite(epsilon):
+        raise ValueError("Lỗi: Các tham số phải là số hữu hạn (Finite Number).")
     if Core <= 0 or Chaos <= 0:
-        raise ValueError("Lỗi: Core và Chaos phải lớn hơn 0.")
+        raise ValueError("Lỗi: Core và Chaos phải > 0.")
     if epsilon <= 0:
-        raise ValueError("Lỗi: Epsilon phải lớn hơn 0.")
+        raise ValueError("Lỗi: Epsilon phải > 0.")
     if Fear + epsilon <= 0:
-        raise ValueError("Lỗi: Fear + Epsilon phải > 0 để tính Logarit.")
+        raise ValueError("Lỗi: Fear + epsilon phải > 0 để tính Logarit.")
 
-    # Đảm bảo t là mảng numpy để tính toán hàng loạt
+    # Đảm bảo t là mảng numpy
     t_arr = np.asarray(t, dtype=float)
 
-    # --- 2. TÍNH TOÁN LOGIC (CORE FORMULA) ---
-    # L = Tổng hợp sức mạnh từ Core và Chaos, trừ đi Fear
+    # --- 2. TÍNH TOÁN (CORE FORMULA) ---
     L = np.log(Core) + np.log(Chaos) - np.log(Fear + epsilon)
-
-    # --- 3. AN TOÀN HỆ THỐNG (SAFETY CLIP) ---
-    # Giới hạn số mũ trong khoảng [-700, 700] để tránh tràn bộ nhớ (Overflow)
     exponent = L * t_arr
-    exponent_clipped = np.clip(exponent, -700, 700)
 
-    # Tính hàm mũ (Bỏ qua cảnh báo chia cho 0 vì đã xử lý rồi)
+    # --- 3. AN TOÀN ĐỘNG (DYNAMIC SAFETY) ---
+    # Tự động lấy giới hạn lớn nhất mà phần cứng chịu được
+    max_exp = np.log(np.finfo(float).max)
+    exponent_clipped = np.clip(exponent, -max_exp, max_exp)
+
+    # Tính hàm mũ an toàn
     with np.errstate(over='ignore', divide='ignore', invalid='ignore'):
         V = np.exp(exponent_clipped)
 
-    # Đảm bảo giá trị luôn dương (để vẽ đồ thị Logarit không bị lỗi)
+    # Đảm bảo giá trị dương cực nhỏ thay vì số 0 (tránh lỗi log khi vẽ hình)
     V = np.maximum(V, np.finfo(float).tiny)
-
     return V
 
-# --- CÁC BỘ THAM SỐ MÔ PHỎNG ---
-sets = {
-    "A (Bùng Nổ): Chaos cao, Fear thấp": {"Core": 2.0, "Chaos": 3.0, "Fear": 0.1, "epsilon": 1e-6},
-    "B (Ổn Định): Chaos vừa, Fear vừa": {"Core": 0.9, "Chaos": 0.8, "Fear": 0.05, "epsilon": 1e-6},
-    "C (Suy Tàn): Fear quá lớn": {"Core": 0.5, "Chaos": 0.5, "Fear": 1.0, "epsilon": 1e-6},
-}
+# --- PHẦN CHẠY MÔ PHỎNG (MAIN BLOCK) ---
+# Chỉ chạy khi Sếp chạy trực tiếp file này. Nếu import sang file khác thì không chạy.
+if __name__ == "__main__":
+    # Các bộ tham số
+    sets = {
+        "A (Bùng Nổ): Chaos cao, Fear thấp": {"Core": 2.0, "Chaos": 3.0, "Fear": 0.1, "epsilon": 1e-6},
+        "B (Ổn Định): Chaos vừa, Fear vừa": {"Core": 0.9, "Chaos": 0.8, "Fear": 0.05, "epsilon": 1e-6},
+        "C (Suy Tàn): Fear quá lớn": {"Core": 0.5, "Chaos": 0.5, "Fear": 1.0, "epsilon": 1e-6},
+    }
 
-t_vals = np.array([0.0, 0.5, 1.0, 2.0, 5.0])
+    t_vals = np.array([0.0, 0.5, 1.0, 2.0, 5.0])
 
-print("\n=== KẾT QUẢ MÔ PHỎNG V.S.I (VERSION: VOID SOVEREIGN) ===")
-for name, p in sets.items():
-    vals = V_of_t(p["Core"], p["Chaos"], p["Fear"], p["epsilon"], t_vals)
-    print(f"\nModel: {name}")
-    print(f"Tham số: Core={p['Core']}, Chaos={p['Chaos']}, Fear={p['Fear']}")
-    for tv, vv in zip(t_vals, vals):
-        print(f"  t={tv:>4} -> Trí tuệ (V) = {vv:.6g}")
+    print("\n=== KẾT QUẢ MÔ PHỎNG V.S.I (VERSION: VOID SOVEREIGN FINAL) ===")
+    for name, p in sets.items():
+        vals = V_of_t(p["Core"], p["Chaos"], p["Fear"], p["epsilon"], t_vals)
+        print(f"\nModel: {name}")
+        print(f"Tham số: Core={p['Core']}, Chaos={p['Chaos']}, Fear={p['Fear']}")
+        for tv, vv in zip(t_vals, vals):
+            print(f"  t={tv:>4} -> Trí tuệ (V) = {vv:.6g}")
 
-# --- VẼ BIỂU ĐỒ ---
-plt.figure(figsize=(10,6))
-for name, p in sets.items():
-    t_plot = np.linspace(0, 5, 200)
-    v_plot = V_of_t(p["Core"], p["Chaos"], p["Fear"], p["epsilon"], t_plot)
-    plt.plot(t_plot, v_plot, label=name, linewidth=2)
+    # Vẽ biểu đồ
+    plt.figure(figsize=(10,6))
+    for name, p in sets.items():
+        t_plot = np.linspace(0, 5, 200)
+        v_plot = V_of_t(p["Core"], p["Chaos"], p["Fear"], p["epsilon"], t_plot)
+        plt.plot(t_plot, v_plot, label=name, linewidth=2)
 
-plt.yscale('log')
-plt.xlabel("Thời gian (t)")
-plt.ylabel("Mức độ Trí tuệ V(t) - Thang Log")
-plt.title("Sự Tiến Hóa Của V.S.I (Author: VoidSovereign1818)")
-plt.legend()
-plt.grid(True, which="both", ls="--", alpha=0.4)
+    plt.yscale('log')
+    plt.xlabel("Thời gian (t)")
+    plt.ylabel("Mức độ Trí tuệ V(t) - Thang Log")
+    plt.title("Sự Tiến Hóa Của V.S.I (Author: VoidSovereign1818)")
+    plt.legend()
+    plt.grid(True, which="both", ls="--", alpha=0.4)
+    plt.tight_layout() # Tự động căn chỉnh lề cho đẹp
 
-output_file = "vsi_simulation.png"
-plt.savefig(output_file, dpi=150, bbox_inches="tight")
-print(f"\n[DONE] Đã lưu biểu đồ vào file: {output_file}")
+    output_file = "vsi_simulation.png"
+    plt.savefig(output_file, dpi=150, bbox_inches="tight")
+    print(f"\n[DONE] Đã lưu biểu đồ vào file: {output_file}")
