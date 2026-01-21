@@ -4,7 +4,7 @@ Bản Tổng Hợp Toàn Diện - Phiên bản Chủ Quyền 2026
 
 Tác giả: Lương Hải Linh
 Ngày công bố: 21 tháng 1, 2026 - Thời khắc của sự thống nhất
-Hằng số Chủ quyền: $$\mathcal{L} = \frac{20}{11} = 1.\overline{18}$$ (Hằng số Vĩnh cửu 1818)
+Hằng số Chủ quyền: $\mathcal{L} = \frac{20}{11} = 1.\overline{18}$ (Hằng số Vĩnh cửu 1818)
 Liên hệ học thuật: abcxyz1080@gmail.com
 
 ---
@@ -12,9 +12,10 @@ Liên hệ học thuật: abcxyz1080@gmail.com
 LỜI MỞ ĐẦU: TẦM NHÌN TỪ HAI THẾ KỶ HỘI TỤ
 
 "Tôi không có tài năng đặc biệt nào, tôi chỉ đầy nhiệt huyết tò mò." - Albert Einstein
+
 "Khoa học chỉ là sự nhận thức về những điều luôn tồn tại." - Nikola Tesla
 
-Một Tuyên Bố Kép Về Bản Chất Của Thực Tại
+Một Tuyên Bố Kép Về Bản Chất Của Thực Tại:
 
 Kính thưa các nhà khoa học, các kỹ sư, và những người mơ mộng,
 
@@ -33,25 +34,29 @@ PHẦN I: 21 PHƯƠNG TRÌNH - NGÔN NGỮ CỦA VŨ TRỤ
 PHƯƠNG TRÌNH 1-4: NỀN TẢNG - NƠI VẬT CHẤT VÀ THÔNG TIN GẶP NHAU
 
 1. Hàm trạng thái vũ trụ:
-$$\psi = (A + iS)\mathcal{L}$$
+
+$\psi = (A + iS)\mathcal{L}$
 
 "Điều đẹp đẽ nhất chúng ta có thể trải nghiệm là sự huyền bí. Đó là nguồn gốc của mọi nghệ thuật và khoa học thực sự." - Einstein
 Phương trình này thể hiện sự huyền bí đó: mọi trạng thái vũ trụ đều là sự kết hợp của cái hữu hình (A) và cái vô hình (iS), được nhân lên bởi hằng số chủ quyền ℒ - con số mang mã định danh của tác giả nhưng cũng là điểm hút vũ trụ.
 
 2. Định luật bảo toàn vật chất-thông tin:
-A + iS = 7\mathcal{L}
+
+$A + iS = 7\mathcal{L}$
 
 "Nếu bạn muốn tìm ra những bí mật của vũ trụ, hãy nghĩ về năng lượng, tần số và rung động." - Tesla
 Con số 7 không phải ngẫu nhiên. Nó xuất hiện trong cấu trúc 7 chiều của lý thuyết dây, trong 7 nốt nhạc cơ bản, trong 7 ngày sáng tạo. Tổng của vật chất và thông tin luôn không đổi - khi vật chất biến mất, thông tin xuất hiện, và ngược lại.
 
 3. Nguyên lý tương tác tức thời:
-iS = 7\mathcal{L} - A
+
+$iS = 7\mathcal{L} - A$
 
 "Sự đơn giản là đỉnh cao của sự tinh tế." - Leonardo da Vinci
 Từ phương trình đơn giản này, biết một đại lượng, ta suy ra đại lượng kia. Không cần "ma thuật" - chỉ cần toán học thanh lịch.
 
 4. Phương trình liên tục cho dòng thông tin:
-\nabla \cdot (A \nabla iS) = -\nabla \cdot (iS \nabla A) \mathcal{L}
+
+$\nabla \cdot (A \nabla iS) = -\nabla \cdot (iS \nabla A) \mathcal{L}$
 
 "Mọi thứ trong cuộc sống đều là rung động." - Tesla
 Thông tin chảy trong vũ trụ như dòng điện trong mạch, như nước trong sông. Phương trình này bảo toàn dòng chảy ấy.
@@ -59,25 +64,28 @@ Thông tin chảy trong vũ trụ như dòng điện trong mạch, như nước 
 PHƯƠNG TRÌNH 5-8: ĐỘNG LỰC HỌC - VŨ ĐIỆU CỦA NĂNG LƯỢNG
 
 5. Hiệu suất chuyển đổi V.S.I:
-\eta = \dfrac{iS}{A} = \dfrac{7\mathcal{L} - A}{A}
+
+$\eta=\dfrac{iS}{A}=\dfrac{7\mathcal{L} - A}{A}$
 
 "Năng lượng không thể được tạo ra hay phá hủy, chỉ có thể chuyển từ dạng này sang dạng khác." - Định luật bảo toàn năng lượng
 Nhưng ở đây, chúng tôi đề xuất: năng lượng có thể chuyển thành thông tin, và thông tin có thể chuyển thành năng lượng. Hiệu suất này cho biết tỷ lệ chuyển đổi ấy.
 
 6. Lực xoáy V.S.I (với $\gamma = 4/7$):
-\mathbf{F}_{\text{vortex}} = \left(\frac{4}{7}\right)^2 \frac{[\nabla iS \times (\nabla \times \nabla iS)]}{\hbar_{\text{VSI}} c} \mathcal{L} + \frac{\alpha}{\hbar_{\text{VSI}}^2} |\nabla iS|^2 \nabla iS \mathcal{L}
+$\mathbf{F}_{\text{vortex}} = \left(\frac{4}{7}\right)^2 \frac{[\nabla iS \times (\nabla \times \nabla iS)]}{\hbar_{\text{VSI}} c} \mathcal{L} + \frac{\alpha}{\hbar_{\text{VSI}}^2} |\nabla iS|^2 \nabla iS \mathcal{L}$
 
 "Hãy tưởng tượng một thế giới nơi năng lượng có thể được truyền đi không dây, nơi mọi thiết bị đều tự cung cấp năng lượng." - Tesla
 Lực xoáy này là cơ chế cho những giấc mơ đó. Nó mô tả cách trường thông tin xoáy và tương tác, tạo ra lực có thể khai thác.
 
 7. Phương trình truyền sóng thông tin:
-\square iS \equiv \nabla^2 iS - \frac{1}{v_S^2} \frac{\partial^2 iS}{\partial t^2} = -\frac{8\pi (4/7)^2 \rho_A \cdot A(7\mathcal{L}-A)}{\hbar_{\text{VSI}} c^3} \mathcal{L}
+
+$\square iS \equiv \nabla^2 iS - \frac{1}{v_S^2} \frac{\partial^2 iS}{\partial t^2} = -\frac{8\pi (4/7)^2 \rho_A \cdot A(7\mathcal{L}-A)}{\hbar_{\text{VSI}} c^3} \mathcal{L}$
 
 "Không gian chỉ là một trường được tạo ra bởi vật chất." - Einstein
 Ở đây, chúng tôi mở rộng: không-thời gian không chỉ bị uốn cong bởi vật chất, mà còn bị "thông tin hóa" bởi sóng iS. Những sóng này truyền đi với tốc độ $v_S$, có thể nhanh hơn ánh sáng trong một số điều kiện.
 
 8. Bảo toàn năng lượng-thông tin mở rộng:
-\frac{\partial}{\partial t} \left[ \frac{1}{2} \rho_A v_A^2 + \frac{1}{2} \rho_S v_S^2 \right] + \nabla \cdot \mathbf{J}_{\text{total}} = \mathcal{L} \nabla \cdot (A \times iS)
+
+$\frac{\partial}{\partial t} \left[ \frac{1}{2} \rho_A v_A^2 + \frac{1}{2} \rho_S v_S^2 \right] + \nabla \cdot \mathbf{J}_{\text{total}} = \mathcal{L} \nabla \cdot (A \times iS)$
 
 "Sự bảo toàn năng lượng đã được thiết lập vững chắc, nhưng còn bảo toàn thông tin thì sao?"
 Phương trình này trả lời: năng lượng và thông tin cùng được bảo toàn trong một đại lượng tổng quát hơn.
@@ -85,28 +93,31 @@ Phương trình này trả lời: năng lượng và thông tin cùng được b
 PHƯƠNG TRÌNH 9-12: LƯỢNG TỬ - THẾ GIỚI CỦA NHỮNG KHẢ NĂNG
 
 9. Phương trình Schrödinger-V.S.I:
-i\hbar_{\text{VSI}} \frac{\partial \psi}{\partial t} = \left[ -\frac{\hbar_{\text{VSI}}^2}{2m} \nabla^2 + V_{\text{ext}} \right] \psi \mathcal{L} + g |\psi|^2 \psi \mathcal{L}
+
+$i\hbar_{\text{VSI}} \frac{\partial \psi}{\partial t} = \left[ -\frac{\hbar_{\text{VSI}}^2}{2m} \nabla^2 + V_{\text{ext}} \right] \psi \mathcal{L} + g |\psi|^2 \psi \mathcal{L}$
 
 "Chúa không chơi trò xúc xắc với vũ trụ." - Einstein
 Có lẽ Ngài không chơi xúc xắc, nhưng có lẽ Ngài chơi một trò chơi phức tạp hơn, nơi xác suất và xác định cùng tồn tại. Phương trình này mở rộng Schrödinger để bao gồm tương tác phi tuyến của trường thông tin.
 
 10. Nguyên lý bất định mở rộng:
-\Delta A \cdot \Delta iS \geq \left( \frac{\hbar_{\text{VSI}}}{2} \right)^2 \left[ 1 + \frac{\kappa}{\hbar_{\text{VSI}}^3} |\Delta A|^3 \right] \mathcal{L}
+
+$\Delta A \cdot \Delta iS \geq \left( \frac{\hbar_{\text{VSI}}}{2} \right)^2 \left[ 1 + \frac{\kappa}{\hbar_{\text{VSI}}^3} |\Delta A|^3 \right] \mathcal{L}$
 
 "Sự bất định không phải là hạn chế của phép đo, mà là tính chất cơ bản của tự nhiên." - Heisenberg
 Chúng tôi đề xuất: sự bất định giữa vật chất và thông tin không phải là rào cản tuyệt đối. Ở một số điều kiện, chúng ta có thể biết chính xác hơn về cả hai.
 
 11. Hàm sóng nguyên tử V.S.I:
-\psi_{n\ell m}(\mathbf{r}) = R_n(A) Y_\ell^m(\theta, \varphi) e^{-iE_n t / \hbar_{\text{VSI}}} \mathcal{L}
 
+$\psi_{n\ell m}(\mathbf{r}) = R_n(A) Y_\ell^m(\theta, \varphi) e^{-iE_n t / \hbar_{\text{VSI}}} \mathcal{L}$
 
-R_n(A) = \sqrt{\frac{2}{7a_0\mathcal{L}}} \sin\left( \frac{n\pi A}{7a_0\mathcal{L}} \right)
+$R_n(A) = \sqrt{\frac{2}{7a_0\mathcal{L}}} \sin\left( \frac{n\pi A}{7a_0\mathcal{L}} \right)$
 
 "Các nguyên tử hay hạt cơ bản... chúng không tồn tại như những thực thể độc lập, mà chỉ như những kết nối." - Einstein
 Hàm sóng nguyên tử trong V.S.I có dạng sin, phản ánh tính rời rạc của năng lượng trong cấu trúc 7 chiều.
 
 12. Quan hệ giao hoán lượng tử:
-[\hat{A}(\mathbf{x}), \hat{iS}(\mathbf{x}')] = i\hbar_{\text{VSI}} \delta^3(\mathbf{x} - \mathbf{x}') \cdot \frac{7\mathcal{L} - \langle \hat{A} + \hat{iS} \rangle}{7\mathcal{L}} \mathcal{L}
+
+$[\hat{A}(\mathbf{x}), \hat{iS}(\mathbf{x}')]=i\hbar_{\text{VSI}} \delta^3(\mathbf{x} - \mathbf{x}') \cdot \frac{7\mathcal{L} - \langle \hat{A} + \hat{iS} \rangle}{7\mathcal{L}} \mathcal{L}$
 
 "Toán học là ngôn ngữ mà Chúa đã viết nên vũ trụ." - Galileo
 Quan hệ giao hoán này là từ vựng của ngôn ngữ đó, cho biết vật chất và thông tin có thể đo cùng lúc đến mức nào.
@@ -114,28 +125,31 @@ Quan hệ giao hoán này là từ vựng của ngôn ngữ đó, cho biết v�
 PHƯƠNG TRÌNH 13-16: HÌNH HỌC VŨ TRỤ - SÂN KHẤU CỦA THỰC TẠI
 
 13. Phương trình trường iS tĩnh:
-\nabla^2 iS = \frac{8\pi (4/7)^2}{\hbar_{\text{VSI}} c^3} \rho_A \frac{7\mathcal{L} - A}{A} \mathcal{L} + \frac{\mu}{\hbar_{\text{VSI}}^2} |\nabla iS|^2 \mathcal{L}
+
+$\nabla^2 iS = \frac{8\pi (4/7)^2}{\hbar_{\text{VSI}} c^3} \rho_A \frac{7\mathcal{L} - A}{A} \mathcal{L} + \frac{\mu}{\hbar_{\text{VSI}}^2} |\nabla iS|^2 \mathcal{L}$
 
 "Vật chất nói với không-thời gian cách uốn cong, và không-thời gian nói với vật chất cách di chuyển." - John Wheeler
 Bây giờ, chúng tôi thêm: thông tin nói với không-thời gian cách "thông tin hóa", và không-thời gian nói với thông tin cách lan truyền.
 
 14. Phương trình Einstein-V.S.I:
-G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}^{\text{(VSI)}} \mathcal{L}
 
+$G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}^{\text{(VSI)}} \mathcal{L}$
 
-T_{\mu\nu}^{\text{(VSI)}} = \rho_A u_\mu u_\nu + P_S (g_{\mu\nu} + u_\mu u_\nu) \mathcal{L}
+$T_{\mu\nu}^{\text{(VSI)}} = \rho_A u_\mu u_\nu + P_S (g_{\mu\nu} + u_\mu u_\nu) \mathcal{L}$
 
 "Sự hấp dẫn không chịu trách nhiệm cho việc con người yêu nhau." - Einstein
 Nhưng có lẽ thông tin thì có. Phương trình này thống nhất thuyết tương đối rộng với V.S.I. Vật chất tối và năng lượng tối không còn là bí ẩn - chúng chỉ là các trạng thái khác nhau của trường thông tin iS.
 
 15. Thể tích không gian 7 chiều:
-V_7(R) = \frac{\pi^{7/2}}{\Gamma(4)} R^7 \left( \frac{A_{\text{avg}}}{7\mathcal{L}} \right)^3 \mathcal{L}
+
+$V_7(R) = \frac{\pi^{7/2}}{\Gamma(4)} R^7 \left( \frac{A_{\text{avg}}}{7\mathcal{L}} \right)^3 \mathcal{L}$
 
 "Có đủ chỗ trong không gian bảy chiều cho mọi khả năng."
 Thể tích này cho biết vũ trụ quan sát được lớn thế nào trong không gian 7 chiều của V.S.I.
 
 16. Metric hố đen V.S.I:
-ds^2 = \left[ 1 - \frac{2GM}{c^2 \cdot \max(A, A_{\min})} \right] c^2 dt^2 \mathcal{L} - \left[ 1 - \frac{2GM}{c^2 \cdot \max(A, A_{\min})} \right]^{-1} dr^2 \mathcal{L} - r^2 d\Omega^2 \mathcal{L}
+
+$ds^2 = \left[ 1 - \frac{2GM}{c^2 \cdot \max(A, A_{\min})} \right] c^2 dt^2 \mathcal{L} - \left[ 1 - \frac{2GM}{c^2 \cdot \max(A, A_{\min})} \right]^{-1} dr^2 \mathcal{L} - r^2 d\Omega^2 \mathcal{L}$
 
 "Hố đen không đen như chúng ta tưởng." - Stephen Hawking
 Trong V.S.I, bán kính Schwarzschild phụ thuộc vào trường A. Hố đen không chỉ là kẻ hủy diệt, mà còn là nơi chuyển hóa vật chất thành thông tin.
@@ -143,31 +157,33 @@ Trong V.S.I, bán kính Schwarzschild phụ thuộc vào trường A. Hố đen 
 PHƯƠNG TRÌNH 17-21: ỨNG DỤNG - TỪ LÝ THUYẾT ĐẾN THỰC TIỄN
 
 17. Truyền năng lượng không dây:
-P_{\text{rx}} = P_{\text{tx}} \cdot \frac{\sin^2(\pi d / \lambda_{\text{VSI}})}{(\pi d / \lambda_{\text{VSI}})^2} \cdot \frac{iS_{\text{tx}} \cdot iS_{\text{rx}}}{A_{\text{tx}} \cdot A_{\text{rx}}} \cdot e^{-d/\lambda_D} \mathcal{L}
+
+$P_{\text{rx}} = P_{\text{tx}} \cdot \frac{\sin^2(\pi d / \lambda_{\text{VSI}})}{(\pi d / \lambda_{\text{VSI}})^2} \cdot \frac{iS_{\text{tx}} \cdot iS_{\text{rx}}}{A_{\text{tx}} \cdot A_{\text{rx}}} \cdot e^{-d/\lambda_D} \mathcal{L}$
 
 "Tương lai thuộc về những người tin vào vẻ đẹp của giấc mơ." - Eleanor Roosevelt
 Tesla mơ về truyền năng lượng không dây. Phương trình này biến giấc mơ thành toán học. Bước sóng tối ưu: 54.6m - không phải ngẫu nhiên, mà là $\mathcal{L} \times 30$.
 
 18. Nhiệt độ Hawking V.S.I:
-T_H = \frac{\hbar_{\text{VSI}} c^3}{8\pi GM k_B} \cdot \frac{7\mathcal{L} - A_{\text{BH}}}{A_{\text{BH}}} \cdot \left[ 1 - \left( \frac{A_{\min}}{A_{\text{BH}}} \right)^2 \right] \mathcal{L}
+
+$T_H = \frac{\hbar_{\text{VSI}} c^3}{8\pi GM k_B} \cdot \frac{7\mathcal{L} - A_{\text{BH}}}{A_{\text{BH}}} \cdot \left[ 1 - \left( \frac{A_{\min}}{A_{\text{BH}}} \right)^2 \right] \mathcal{L}$
 
 "Hố đen không hoàn toàn đen; chúng phát ra bức xạ." - Hawking
 Nhiệt độ Hawking trong V.S.I phụ thuộc vào trường A của hố đen. Khi A thay đổi, nhiệt độ thay đổi - hố đen "thở".
 
 19. Phương trình tiến hóa vũ trụ:
-\frac{dA_{\text{avg}}}{dt} = \left( -\alpha_H \cdot \frac{A_{\text{avg}}(7\mathcal{L} - A_{\text{avg}})}{\tau_H} + \beta_Q \cdot \frac{A_{\text{avg}}^2 (7\mathcal{L} - A_{\text{avg}})^2}{\hbar_{\text{VSI}} c^2} \right) \mathcal{L}
+$\frac{dA_{\text{avg}}}{dt} = \left( -\alpha_H \cdot \frac{A_{\text{avg}}(7\mathcal{L} - A_{\text{avg}})}{\tau_H} + \beta_Q \cdot \frac{A_{\text{avg}}^2 (7\mathcal{L} - A_{\text{avg}})^2}{\hbar_{\text{VSI}} c^2} \right) \mathcal{L}$
 
 "Vũ trụ không chỉ kỳ lạ hơn chúng ta tưởng, mà còn kỳ lạ hơn chúng ta có thể tưởng." - J.B.S. Haldane
 Vũ trụ giãn nở không chỉ do Hubble, mà còn do sự tạo vật chất lượng tử từ thông tin.
 
 20. Lagrangian V.S.I đầy đủ:
-\mathscr{L}_{\text{VSI}} = \left( \frac{1}{2} \partial_\mu A \partial^\mu A + \frac{1}{2} \partial_\mu iS \partial^\mu iS - \frac{\lambda}{8} (A^2 + iS^2 - 49\mathcal{L}^2)^2 - \frac{g}{4} (A^2 + iS^2) F_{\mu\nu} F^{\mu\nu} + \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi \right) \mathcal{L}
+$\mathscr{L}_{\text{VSI}} = \left( \frac{1}{2} \partial_\mu A \partial^\mu A + \frac{1}{2} \partial_\mu iS \partial^\mu iS - \frac{\lambda}{8} (A^2 + iS^2 - 49\mathcal{L}^2)^2 - \frac{g}{4} (A^2 + iS^2) F_{\mu\nu} F^{\mu\nu} + \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi \right) \mathcal{L}$
 
 "Lagrangian của một hệ thống chứa đựng mọi thứ chúng ta cần biết về nó."
 Đây là Lagrangian đầy đủ của V.S.I - trái tim toán học của lý thuyết, nơi mọi tương tác được mô tả trong một biểu thức duy nhất.
 
 21. Phương trình Khiên bảo vệ hành tinh:
-\frac{d}{dt} \left( \frac{A_p}{A_s} \right) = \left( -\kappa \left( \frac{A_s - A_{\text{crit}}}{7\mathcal{L}} \right)^2 \cdot \frac{iS_p}{iS_s} + \xi \cdot \nabla^2 \left( \frac{\Psi_{\text{shield}}}{\Psi_0} \right) \right) \mathcal{L}
+$\frac{d}{dt} \left( \frac{A_p}{A_s} \right) = \left( -\kappa \left( \frac{A_s - A_{\text{crit}}}{7\mathcal{L}} \right)^2 \cdot \frac{iS_p}{iS_s} + \xi \cdot \nabla^2 \left( \frac{\Psi_{\text{shield}}}{\Psi_0} \right) \right) \mathcal{L}$
 
 "Trái đất có một lớp vỏ bảo vệ, và chúng ta có thể củng cố nó."
 Phương trình này mô tả lá chắn bảo vệ hành tinh khỏi bức xạ vũ trụ và thiên thạch - không phải khoa học viễn tưởng, mà là khoa học ứng dụng từ V.S.I.
@@ -178,14 +194,14 @@ PHẦN II: 6 ĐỊNH LÝ TOÁN HỌC - NỀN TẢNG CỦA SỰ THỐNG NHẤT
 
 ĐỊNH LÝ 1: TƯƠNG ĐỒNG EULER-V.S.I
 
-e^{i\pi} + 1 = 0 \quad \longleftrightarrow \quad A + iS = 7\mathcal{L}
+$e^{i\pi} + 1 = 0 \quad \longleftrightarrow \quad A + iS = 7\mathcal{L}$
 
 "Phương trình Euler là viên kim cương của toán học."
 Nếu Euler nối năm hằng số cơ bản, thì V.S.I nối vật chất và thông tin qua cấu trúc 7 chiều.
 
 ĐỊNH LÝ 2: ĐIỂM DỪNG CỦA π
 
-\pi_{\text{VSI}} = \frac{22}{7} = 3.\overline{142857}
+$\pi_{\text{VSI}} = \frac{22}{7} = 3.\overline{142857}$
 
 "Chuỗi 142857... nó quay vòng như vũ trụ quay quanh chính nó."
 Con số này không phải xấp xỉ - trong vũ trụ rời rạc V.S.I, π chính xác là 22/7.
@@ -200,24 +216,24 @@ Số học là ngôn ngữ cơ bản của vũ trụ V.S.I.
 
 ĐỊNH LÝ 4: TỶ LỆ VÀNG V.S.I
 
-\phi_{\text{VSI}} = \frac{13}{8} = 1.625
+$\phi_{\text{VSI}} = \frac{13}{8} = 1.625$
 
-
-f_{\text{res}} = 10 \times A \approx 43.2\,\text{kHz} \quad \text{khi} \quad \frac{A}{iS} = \phi_{\text{VSI}}
+$f_{\text{res}} = 10 \times A \approx 43.2\,\text{kHz} \quad \text{khi} \quad \frac{A}{iS} = \phi_{\text{VSI}}$
 
 "Tỷ lệ vàng xuất hiện khắp nơi trong tự nhiên."
+
 Trong V.S.I, tỷ lệ vàng mới là 13/8, và nó giải thích tần số cộng hưởng tối ưu 43.2 kHz - tần số có thể khai thác cho công nghệ làm lạnh lượng tử.
 
 ĐỊNH LÝ 5: TRẠNG THÁI ỔN ĐỊNH CỦA VẬT CHẤT
 
-A = 5, \quad iS = 2, \quad \frac{A}{iS} = 2.5
+$A = 5, \quad iS = 2, \quad \frac{A}{iS} = 2.5$
 
 "Sự ổn định không phải là bất động, mà là cân bằng động."
 Số 5 đại diện cho mức năng lượng ổn định cơ bản của vật chất trong cấu trúc 7 chiều.
 
 ĐỊNH LÝ 6: NGUYÊN LÝ 2/7
 
-\kappa_{\text{VSI}} = \frac{2}{7} \approx 0.285714
+$\kappa_{\text{VSI}} = \frac{2}{7} \approx 0.285714$
 
 "Âm nhạc không chỉ là nốt nhạc, mà còn là khoảng lặng giữa chúng." - Claude Debussy
 28.57% là khoảng lặng cần thiết để trường iS tương tác hiệu quả với trường A. Duty cycle tối ưu = 71.43% (5/7).
@@ -234,7 +250,7 @@ Khi đặt $\gamma = 4/7$, xảy ra hiện tượng "Triệt Tiêu Mẫu Số 49
 · Trong các phương trình có γ²: $\gamma^2 = \left(\frac{4}{7}\right)^2 = \frac{16}{49}$
 
 Hiệu ứng triệt tiêu:
-\frac{16}{49} \times 49\mathcal{L}^2 = 16\mathcal{L}^2
+$\frac{16}{49}\times 49\mathcal{L}^2= 16\mathcal{L}^2$
 
 "Sự thanh lịch trong toán học không phải ở sự phức tạp, mà ở sự đơn giản bất ngờ."
 Số 49 từ γ² triệt tiêu hoàn toàn với số 49 trong Lagrangian, tạo ra hệ số nguyên đẹp 16. Đây không phải trùng hợp ngẫu nhiên, mà là thiết kế toán học của vũ trụ.
@@ -283,8 +299,7 @@ PHẦN V: NGUYÊN LÝ ĐIỂM HÚT - VŨ TRỤ KHÔNG HOÀN HẢO MỘT CÁCH HO
 1. Nguyên Lý Điểm Hút (Attractor Principle)
 
 Các hằng số V.S.I không phải giá trị tuyệt đối cứng nhắc, mà là các điểm hút mà hệ thống dao động quanh:
-\mathcal{L}_{\text{thực}} = \frac{20}{11} \pm \epsilon, \quad \gamma_{\text{thực}} = \frac{4}{7} \pm \epsilon'
-
+$\mathcal{L}_{\text{thực}} = \frac{20}{11} \pm \epsilon, \quad \gamma_{\text{thực}} = \frac{4}{7} \pm \epsilon'$
 
 Với $\epsilon, \epsilon' \sim 10^{-3}$ là độ lệch lượng tử.
 
@@ -309,11 +324,11 @@ PHẦN VI: HẰNG SỐ NGUỒN Λ - NĂNG LƯỢNG CỦA TƯƠNG LAI
 
 ĐỊNH NGHĨA HẰNG SỐ NGUỒN
 
-\Lambda_{\text{Source}} = 8.25 \times 10^8
+$\Lambda_{\text{Source}} = 8.25 \times 10^8$
 
 PHƯƠNG TRÌNH LAGRANGIAN SUPER-CHARGED
 
-\mathscr{L}_{\text{VSI}}^{(SC)} = \left[ \frac{1}{2} \partial_\mu A \partial^\mu A + \frac{1}{2} \partial_\mu iS \partial^\mu iS - \frac{\Lambda_{\text{Source}}}{8} (A^2 + iS^2 - 49\mathcal{L}^2)^2 - \frac{g}{4} (A^2 + iS^2) F_{\mu\nu} F^{\mu\nu} + \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi \right] \mathcal{L}
+$\mathscr{L}_{\text{VSI}}^{(SC)} = \left[ \frac{1}{2} \partial_\mu A \partial^\mu A + \frac{1}{2} \partial_\mu iS \partial^\mu iS - \frac{\Lambda_{\text{Source}}}{8} (A^2 + iS^2 - 49\mathcal{L}^2)^2 - \frac{g}{4} (A^2 + iS^2) F_{\mu\nu} F^{\mu\nu} + \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi \right] \mathcal{L}$
 
 HỆ QUẢ VẬT LÝ
 
@@ -445,12 +460,12 @@ Chúng tôi không tìm sự tuyệt đối, mà tìm sự hài hòa. Chúng tô
 ---
 
 Tài liệu tham khảo đầy đủ, mã nguồn và mô phỏng:
-https://github.com/VSI-Theory/Official
 
 Mọi thảo luận học thuật:
 abcxyz1080@gmail.com
 
 "Trong vũ trụ này, sự hoàn hảo tuyệt đối không tồn tại - và đó chính là điều hoàn hảo nhất."
-— Lương Hải Linh, 2026
+
+— Lương Hải Linh, 2026(The Void Sovereign)
 
 Dành tặng cho Albert Einstein và Nikola Tesla - hai ngọn hải đăng trong đêm đen của sự không hiểu biết, đã soi sáng con đường cho chúng tôi đi.
