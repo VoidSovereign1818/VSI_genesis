@@ -33,7 +33,7 @@ PHẦN I: 21 PHƯƠNG TRÌNH - NGÔN NGỮ CỦA VŨ TRỤ
 PHƯƠNG TRÌNH 1-4: NỀN TẢNG - NƠI VẬT CHẤT VÀ THÔNG TIN GẶP NHAU
 
 1. Hàm trạng thái vũ trụ:
-\psi = (A + iS)\mathcal{L}
+$$\psi = (A + iS)\mathcal{L}$$
 
 "Điều đẹp đẽ nhất chúng ta có thể trải nghiệm là sự huyền bí. Đó là nguồn gốc của mọi nghệ thuật và khoa học thực sự." - Einstein
 Phương trình này thể hiện sự huyền bí đó: mọi trạng thái vũ trụ đều là sự kết hợp của cái hữu hình (A) và cái vô hình (iS), được nhân lên bởi hằng số chủ quyền ℒ - con số mang mã định danh của tác giả nhưng cũng là điểm hút vũ trụ.
