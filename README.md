@@ -4,7 +4,7 @@ Bản Tổng Hợp Toàn Diện - Phiên bản Chủ Quyền 2026
 
 Tác giả: Lương Hải Linh
 Ngày công bố: 21 tháng 1, 2026 - Thời khắc của sự thống nhất
-Hằng số Chủ quyền: $\mathcal{L} = \frac{20}{11} = 1.\overline{18}$ (Hằng số Vĩnh cửu 1818)
+Hằng số Chủ quyền: $$\mathcal{L} = \frac{20}{11} = 1.\overline{18}$$ (Hằng số Vĩnh cửu 1818)
 Liên hệ học thuật: abcxyz1080@gmail.com
 
 ---
