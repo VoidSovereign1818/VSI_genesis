@@ -4,7 +4,7 @@ Bản Tổng Hợp Toàn Diện - Phiên bản Chủ Quyền 2026
 
 Tác giả: Lương Hải Linh
 Ngày xuất bản: 21 tháng 1, 2026
-Hằng số Chủ quyền: $\mathcal{L}$ = 1.818
+Hằng số Chủ quyền: $\mathcal{L} = 1.818
 Liên hệ học thuật: abcxyz1080@gmail.com
 
 ---
