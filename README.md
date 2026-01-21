@@ -176,7 +176,7 @@ $\frac{dA_{\text{avg}}}{dt} = \left( -\alpha_H \cdot \frac{A_{\text{avg}}(7\math
 Vũ trụ giãn nở không chỉ do Hubble, mà còn do sự tạo vật chất lượng tử từ thông tin.
 
 20. Lagrangian V.S.I đầy đủ:
-$\mathscr{L}_{\text{VSI}} = \left( \frac{1}{2} \partial_\mu A \partial^\mu A + \frac{1}{2} \partial_\mu iS \partial^\mu iS - \frac{\lambda}{8} (A^2 + iS^2 - 49\mathcal{L}^2)^2 - \frac{g}{4} (A^2 + iS^2) F_{\mu\nu} F^{\mu\nu} + \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi \right) \mathcal{L}$
+$\mathscr{L}_{\text{VSI}} =\left( \frac{1}{2} \partial_\mu A \partial^\mu A + \frac{1}{2} \partial_\mu iS \partial^\mu iS - \frac{\lambda}{8} (A^2 + iS^2 - 49\mathcal{L}^2)^2 - \frac{g}{4} (A^2 + iS^2) F_{\mu\nu} F^{\mu\nu} + \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi \right) \mathcal{L}$
 "Lagrangian của một hệ thống chứa đựng mọi thứ chúng ta cần biết về nó."
 Đây là Lagrangian đầy đủ của V.S.I - trái tim toán học của lý thuyết, nơi mọi tương tác được mô tả trong một biểu thức duy nhất.
 
