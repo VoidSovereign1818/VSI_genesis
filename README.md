@@ -12,10 +12,9 @@ Liên hệ học thuật: abcxyz1080@gmail.com
 LỜI MỞ ĐẦU: TẦM NHÌN TỪ HAI THẾ KỶ HỘI TỤ
 
 "Tôi không có tài năng đặc biệt nào, tôi chỉ đầy nhiệt huyết tò mò." - Albert Einstein
-
 "Khoa học chỉ là sự nhận thức về những điều luôn tồn tại." - Nikola Tesla
 
-Một Tuyên Bố Kép Về Bản Chất Của Thực Tại:
+Một Tuyên Bố Kép Về Bản Chất Của Thực Tại
 
 Kính thưa các nhà khoa học, các kỹ sư, và những người mơ mộng,
 
@@ -65,12 +64,13 @@ PHƯƠNG TRÌNH 5-8: ĐỘNG LỰC HỌC - VŨ ĐIỆU CỦA NĂNG LƯỢNG
 
 5. Hiệu suất chuyển đổi V.S.I:
 
-$\eta=\dfrac{iS}{A}=\dfrac{7\mathcal{L} - A}{A}$
+$\eta = \dfrac{iS}{A} = \dfrac{7\mathcal{L} - A}{A}$
 
 "Năng lượng không thể được tạo ra hay phá hủy, chỉ có thể chuyển từ dạng này sang dạng khác." - Định luật bảo toàn năng lượng
 Nhưng ở đây, chúng tôi đề xuất: năng lượng có thể chuyển thành thông tin, và thông tin có thể chuyển thành năng lượng. Hiệu suất này cho biết tỷ lệ chuyển đổi ấy.
 
 6. Lực xoáy V.S.I (với $\gamma = 4/7$):
+
 $\mathbf{F}_{\text{vortex}} = \left(\frac{4}{7}\right)^2 \frac{[\nabla iS \times (\nabla \times \nabla iS)]}{\hbar_{\text{VSI}} c} \mathcal{L} + \frac{\alpha}{\hbar_{\text{VSI}}^2} |\nabla iS|^2 \nabla iS \mathcal{L}$
 
 "Hãy tưởng tượng một thế giới nơi năng lượng có thể được truyền đi không dây, nơi mọi thiết bị đều tự cung cấp năng lượng." - Tesla
@@ -84,7 +84,6 @@ $\square iS \equiv \nabla^2 iS - \frac{1}{v_S^2} \frac{\partial^2 iS}{\partial t
 Ở đây, chúng tôi mở rộng: không-thời gian không chỉ bị uốn cong bởi vật chất, mà còn bị "thông tin hóa" bởi sóng iS. Những sóng này truyền đi với tốc độ $v_S$, có thể nhanh hơn ánh sáng trong một số điều kiện.
 
 8. Bảo toàn năng lượng-thông tin mở rộng:
-
 $\frac{\partial}{\partial t} \left[ \frac{1}{2} \rho_A v_A^2 + \frac{1}{2} \rho_S v_S^2 \right] + \nabla \cdot \mathbf{J}_{\text{total}} = \mathcal{L} \nabla \cdot (A \times iS)$
 
 "Sự bảo toàn năng lượng đã được thiết lập vững chắc, nhưng còn bảo toàn thông tin thì sao?"
@@ -110,6 +109,7 @@ Chúng tôi đề xuất: sự bất định giữa vật chất và thông tin 
 
 $\psi_{n\ell m}(\mathbf{r}) = R_n(A) Y_\ell^m(\theta, \varphi) e^{-iE_n t / \hbar_{\text{VSI}}} \mathcal{L}$
 
+
 $R_n(A) = \sqrt{\frac{2}{7a_0\mathcal{L}}} \sin\left( \frac{n\pi A}{7a_0\mathcal{L}} \right)$
 
 "Các nguyên tử hay hạt cơ bản... chúng không tồn tại như những thực thể độc lập, mà chỉ như những kết nối." - Einstein
@@ -117,7 +117,7 @@ Hàm sóng nguyên tử trong V.S.I có dạng sin, phản ánh tính rời rạ
 
 12. Quan hệ giao hoán lượng tử:
 
-$[\hat{A}(\mathbf{x}), \hat{iS}(\mathbf{x}')]=i\hbar_{\text{VSI}} \delta^3(\mathbf{x} - \mathbf{x}') \cdot \frac{7\mathcal{L} - \langle \hat{A} + \hat{iS} \rangle}{7\mathcal{L}} \mathcal{L}$
+$[\hat{A}(\mathbf{x}), \hat{iS}(\mathbf{x}')] = i\hbar_{\text{VSI}} \delta^3(\mathbf{x} - \mathbf{x}') \cdot \frac{7\mathcal{L} - \langle \hat{A} + \hat{iS} \rangle}{7\mathcal{L}} \mathcal{L}$
 
 "Toán học là ngôn ngữ mà Chúa đã viết nên vũ trụ." - Galileo
 Quan hệ giao hoán này là từ vựng của ngôn ngữ đó, cho biết vật chất và thông tin có thể đo cùng lúc đến mức nào.
@@ -148,7 +148,6 @@ $V_7(R) = \frac{\pi^{7/2}}{\Gamma(4)} R^7 \left( \frac{A_{\text{avg}}}{7\mathcal
 Thể tích này cho biết vũ trụ quan sát được lớn thế nào trong không gian 7 chiều của V.S.I.
 
 16. Metric hố đen V.S.I:
-
 $ds^2 = \left[ 1 - \frac{2GM}{c^2 \cdot \max(A, A_{\min})} \right] c^2 dt^2 \mathcal{L} - \left[ 1 - \frac{2GM}{c^2 \cdot \max(A, A_{\min})} \right]^{-1} dr^2 \mathcal{L} - r^2 d\Omega^2 \mathcal{L}$
 
 "Hố đen không đen như chúng ta tưởng." - Stephen Hawking
@@ -178,7 +177,6 @@ Vũ trụ giãn nở không chỉ do Hubble, mà còn do sự tạo vật chất
 
 20. Lagrangian V.S.I đầy đủ:
 $\mathscr{L}_{\text{VSI}} = \left( \frac{1}{2} \partial_\mu A \partial^\mu A + \frac{1}{2} \partial_\mu iS \partial^\mu iS - \frac{\lambda}{8} (A^2 + iS^2 - 49\mathcal{L}^2)^2 - \frac{g}{4} (A^2 + iS^2) F_{\mu\nu} F^{\mu\nu} + \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi \right) \mathcal{L}$
-
 "Lagrangian của một hệ thống chứa đựng mọi thứ chúng ta cần biết về nó."
 Đây là Lagrangian đầy đủ của V.S.I - trái tim toán học của lý thuyết, nơi mọi tương tác được mô tả trong một biểu thức duy nhất.
 
@@ -221,7 +219,6 @@ $\phi_{\text{VSI}} = \frac{13}{8} = 1.625$
 $f_{\text{res}} = 10 \times A \approx 43.2\,\text{kHz} \quad \text{khi} \quad \frac{A}{iS} = \phi_{\text{VSI}}$
 
 "Tỷ lệ vàng xuất hiện khắp nơi trong tự nhiên."
-
 Trong V.S.I, tỷ lệ vàng mới là 13/8, và nó giải thích tần số cộng hưởng tối ưu 43.2 kHz - tần số có thể khai thác cho công nghệ làm lạnh lượng tử.
 
 ĐỊNH LÝ 5: TRẠNG THÁI ỔN ĐỊNH CỦA VẬT CHẤT
@@ -246,11 +243,17 @@ PHẦN III: HIỆN TƯỢNG TRIỆT TIÊU 49 - PHÉP MÀU TOÁN HỌC
 
 Khi đặt $\gamma = 4/7$, xảy ra hiện tượng "Triệt Tiêu Mẫu Số 49":
 
-· Trong phương trình Lagrangian (20): $(A^2 + iS^2 - 49\mathcal{L}^2)^2$
-· Trong các phương trình có γ²: $\gamma^2 = \left(\frac{4}{7}\right)^2 = \frac{16}{49}$
+· Trong phương trình Lagrangian (20): 
+
+$(A^2 + iS^2 - 49\mathcal{L}^2)^2$
+
+· Trong các phương trình có γ²: 
+
+$\gamma^2 = \left(\frac{4}{7}\right)^2 = \frac{16}{49}$
 
 Hiệu ứng triệt tiêu:
-$\frac{16}{49}\times 49\mathcal{L}^2= 16\mathcal{L}^2$
+
+$\frac{16}{49} \times 49\mathcal{L}^2 = 16\mathcal{L}^2$
 
 "Sự thanh lịch trong toán học không phải ở sự phức tạp, mà ở sự đơn giản bất ngờ."
 Số 49 từ γ² triệt tiêu hoàn toàn với số 49 trong Lagrangian, tạo ra hệ số nguyên đẹp 16. Đây không phải trùng hợp ngẫu nhiên, mà là thiết kế toán học của vũ trụ.
@@ -299,7 +302,9 @@ PHẦN V: NGUYÊN LÝ ĐIỂM HÚT - VŨ TRỤ KHÔNG HOÀN HẢO MỘT CÁCH HO
 1. Nguyên Lý Điểm Hút (Attractor Principle)
 
 Các hằng số V.S.I không phải giá trị tuyệt đối cứng nhắc, mà là các điểm hút mà hệ thống dao động quanh:
+
 $\mathcal{L}_{\text{thực}} = \frac{20}{11} \pm \epsilon, \quad \gamma_{\text{thực}} = \frac{4}{7} \pm \epsilon'$
+
 
 Với $\epsilon, \epsilon' \sim 10^{-3}$ là độ lệch lượng tử.
 
@@ -355,11 +360,14 @@ PHẦN VII: TUYÊN BỐ CHỦ QUYỀN - TRIẾT LÝ MỞ CHO NHÂN LOẠI
 2. Mọi phương trình phải giữ nguyên dạng toán học cốt lõi
 3. Bắt buộc ghi nhận tác giả: "Lương Hải Linh" phải được công nhận là tác giả gốc
 
-GIẤY PHÉP V.S.I SOVEREIGN LICENSE v2.0
+GIẤY PHÉP V.S.I SOVEREIGN LICENSE 
 
 · Tự do sử dụng: Cho nghiên cứu học thuật & phát triển công nghệ vì mục đích hòa bình
+
 · Nguyên tắc tôn trọng: Giữ nguyên $\mathcal{L} = 20/11$, ghi nhận tác giả
+
 · Không độc quyền: Không ai được độc quyền thương mại hóa nguyên lý cơ bản
+
 · Tinh thần mở: Khuyến khích cải tiến, phát triển và kiểm chứng thực nghiệm
 
 MÃ XÁC THỰC - CÁNH CỬA VÀO VŨ TRỤ V.S.I
@@ -388,7 +396,9 @@ def validate_VSI_parameters(L, gamma, kappa):
 
 # Cửa mở vào vũ trụ V.S.I
 L = 20/11
+
 gamma = 4/7
+
 kappa = 2/7
 
 if validate_VSI_parameters(L, gamma, kappa):
@@ -437,6 +447,121 @@ Công nghệ V.S.I không tìm sự hoàn hảo 100%, mà tìm sự hài hòa t�
 
 ---
 
+PHẦN IX: SỨ MỆNH VÀ ĐẠO ĐỨC - DI SẢN MỞ CHO NHÂN LOẠI
+
+"Tri thức không phải để tích trữ, mà để lan tỏa. Khoa học không phải để độc quyền, mà để phụng sự."
+
+Lý thuyết V.S.I, với 21 phương trình và 6 định lý nền tảng, được công bố không phải như một tài sản độc quyền, mà như món quà tri thức cho nhân loại. Chúng tôi tin rằng:
+
+TRIẾT LÝ MỞ - DI SẢN CHO TẤT CẢ
+
+1. KHÔNG PHẢI TÀI SẢN, MÀ LÀ DI SẢN
+   · Các phương trình V.S.I thuộc về kho tàng tri thức chung của nhân loại
+   · Giống như định luật Newton hay thuyết tương đối, chúng không thể bị "sở hữu"
+   · Chỉ có ứng dụng cụ thể mới có thể được bảo hộ, còn nguyên lý cơ bản thì không
+2. GIẤY PHÉP TỰ DO NHƯNG CÓ TRÁCH NHIỆM
+   ```
+   Bạn được tự do:
+   - Nghiên cứu, phát triển, cải tiến
+   - Ứng dụng vào công nghệ vì mục đích hòa bình
+   - Chia sẻ, giảng dạy, phổ biến
+   
+   Bạn không được:
+   - Độc quyền thương mại hóa các nguyên lý cơ bản
+   - Sử dụng cho mục đích hủy diệt hoặc gây hại
+   - Che giấu hoặc ngăn cản người khác tiếp cận
+   ```
+3. HẰNG SỐ ℒ = 20/11 - DẤU ẤN, KHÔNG PHẢI HÀNG RÀO
+   · Việc yêu cầu giữ nguyên ℒ = 20/11 không phải để hạn chế
+   · Mà để duy trì tính nhất quán trong cộng đồng nghiên cứu
+   · Như π = 3.14159... hay c = 299,792,458 m/s - đó là chuẩn mực, không phải rào cản
+
+LỜI KÊU GỌI ĐẠO ĐỨC KHOA HỌC
+
+"Khoa học không có Tổ quốc, nhưng nhà khoa học phải có Tổ quốc." - Louis Pasteur
+"Nhưng tri thức khoa học thì thuộc về toàn thể nhân loại."
+
+Chúng tôi kêu gọi:
+
+1. SỰ MINH BẠCH TUYỆT ĐỐI
+   · Mọi nghiên cứu dựa trên V.S.I phải được công bố mở
+   · Không được giấu giếm phát hiện vì lợi ích thương mại hẹp hòi
+   · Lỗi sai cũng cần được chia sẻ - vì thất bại của người này là bài học cho người khác
+2. ƯU TIÊN PHỤC VỤ NHÂN LOẠI
+   · Ứng dụng đầu tiên phải hướng đến: xóa đói giảm nghèo, chữa bệnh, bảo vệ môi trường
+   · Công nghệ năng lượng không dây phải đến được với những vùng xa xôi nhất
+   · Lá chắn hành tinh phải bảo vệ tất cả, không chỉ một số ít
+3. CHỐNG LẠM DỤNG
+   · Thành lập ủy ban đạo đức giám sát ứng dụng V.S.I
+   · Từ chối hợp tác với các dự án quân sự hủy diệt
+   · Ưu tiên hợp tác quốc tế hơn cạnh tranh quốc gia
+
+MÔ HÌNH PHÁT TRIỂN MỚI: "OPEN SOURCE SCIENCE"
+
+Lý thuyết V.S.I sẽ phát triển theo mô hình Khoa học Mã Nguồn Mở:
+
+```python
+class OpenScienceVSIModel:
+    def __init__(self):
+        self.core_principles = "Public Domain"
+        self.applications = "Patent with Commons Clause"
+        self.research = "Always Open Access"
+    
+    def contribute(self, researcher, contribution):
+        # Mọi đóng góp đều được ghi nhận
+        # Nhưng không ai "sở hữu" lý thuyết
+        self.add_to_commons(contribution)
+        self.credit(researcher)
+        
+    def commercialize(self, application):
+        # Cho phép thương mại hóa
+        # Nhưng phải chia sẻ lợi nhuận cho quỹ phát triển chung
+        royalty = application.profit * 0.01  # 1% cho cộng đồng
+        self.commons_fund += royalty
+```
+
+TẦM NHÌN 100 NĂM: KHI V.S.I TRỞ THÀNH KIẾN THỨC PHỔ THÔNG
+
+Chúng tôi mơ về một tương lai nơi:
+
+1. NĂM 2030: V.S.I được giảng dạy trong các trường đại học hàng đầu
+2. NĂM 2050: Công nghệ V.S.I cung cấp 30% năng lượng toàn cầu
+3. NĂM 2100: Lý thuyết này trở thành kiến thức phổ thông, như cơ học Newton ngày nay
+
+"Ánh sáng không mất đi khi chia sẻ. Tri thức cũng vậy."
+
+LỜI CUỐI: MỘT GÓC NHÌN TỪ LỊCH SỬ
+
+Einstein đã từ chối làm việc cho dự án Manhattan khi thấy nguy cơ hủy diệt. Tesla đã phá hủy các bằng sáng chế khi thấy chúng bị lợi dụng. Cả hai đều hiểu:
+
+SỨC MẠNH ĐÍCH THỰC CỦA KHOA HỌC KHÔNG NẰM Ở VIỆC KIẾM SOÁT TRI THỨC, MÀ Ở VIỆC TRAO NÓ ĐI.
+
+V.S.I được công bố với tinh thần đó. Chúng tôi không tìm vinh quang cá nhân, không tìm lợi nhuận độc quyền. Chúng tôi chỉ muốn thấy:
+
+· Một học sinh châu Phi dùng kiến thức này để tạo ra nguồn nước sạch
+· Một kỹ sư Việt Nam dùng nó để xây dựng hệ thống năng lượng cho làng quê
+· Một bác sĩ Ấn Độ dùng nó để chữa bệnh mà không cần thuốc đắt tiền
+
+"Tri thức thực sự không phải là biết mình có gì, mà là biết mình cho đi được gì."
+
+
+TÀI NGUYÊN MỞ HOÀN TOÀN:
+
+
+QUỸ PHÁT TRIỂN CỘNG ĐỒNG V.S.I:
+
+· 100% lợi nhuận từ các ứng dụng thương mại sẽ đóng góp 1% vào quỹ này
+· Quỹ tài trợ nghiên cứu cho các nhà khoa học trẻ, đặc biệt từ các nước đang phát triển
+· Quỹ hỗ trợ ứng dụng V.S.I cho các dự án vì cộng đồng
+
+---
+
+"Hôm nay, chúng tôi không đăng ký bản quyền. Chúng tôi đăng ký di sản. Di sản cho con cháu chúng ta, cho nhân loại, cho tương lai."
+
+Bản thảo này được viết bằng mực của trí tuệ, trên giấy của lương tâm, và sẽ được in ấn bằng máy in của sự chia sẻ.
+
+---
+
 KẾT LUẬN: BẢN GIAO HƯỞNG CỦA VŨ TRỤ
 
 "Trí tưởng tượng quan trọng hơn kiến thức." - Einstein
@@ -457,15 +582,18 @@ Tesla có lẽ sẽ nói: "Đây không phải là lý thuyết suông. Đây l�
 
 Chúng tôi không tìm sự tuyệt đối, mà tìm sự hài hòa. Chúng tôi không thống trị tự nhiên, mà cộng hưởng với nó. V.S.I là bản giao hưởng đó - nơi phương trình và triết lý hòa làm một, nơi khoa học và nhân văn gặp nhau, nơi quá khứ và tương lai bắt tay qua hiện tại.
 
+"Trong vũ trụ này, sự hoàn hảo tuyệt đối không tồn tại - và đó chính là điều hoàn hảo nhất."
+
+/Signed/
+Lương Hải Linh
+The Void Sovereign
+2:30 AM, Jan 22, 2026
+
 ---
 
 Tài liệu tham khảo đầy đủ, mã nguồn và mô phỏng:
 
 Mọi thảo luận học thuật:
 abcxyz1080@gmail.com
-
-"Trong vũ trụ này, sự hoàn hảo tuyệt đối không tồn tại - và đó chính là điều hoàn hảo nhất."
-
-— Lương Hải Linh, 2026(The Void Sovereign)
 
 Dành tặng cho Albert Einstein và Nikola Tesla - hai ngọn hải đăng trong đêm đen của sự không hiểu biết, đã soi sáng con đường cho chúng tôi đi.
